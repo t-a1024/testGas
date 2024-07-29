@@ -1,9 +1,5 @@
 let imageData = [];
-function createImg(url) {
-    const urlData = url.split("=");
-    const returndata = "https://lh3.googleusercontent.com/d/"+urlData[1];
-    return returndata;
-}
+
 async function loadData() {
     try {
         const response = await fetch('data.json');
@@ -19,7 +15,7 @@ function setImg() {
         const label = document.createElement("h1");
         const img = document.createElement("img");
         label.innerText=data.name;
-        img.src=createImg(data.url);
+        img.src=data.assets;
         div.appendChild(label);
         div.appendChild(img);
     });
