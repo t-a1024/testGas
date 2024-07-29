@@ -1,7 +1,7 @@
 let imageData = [];
 function createImg(url) {
-    const urlData = url.split("/");
-    const returndata = "https://lh3.googleusercontent.com/d/"+urlData[5];
+    const urlData = url.split("=");
+    const returndata = "https://lh3.googleusercontent.com/d/"+urlData[1];
     return returndata;
 }
 async function loadData() {
