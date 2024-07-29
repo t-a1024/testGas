@@ -1,42 +1,6 @@
 [
   {
-    "name": "画像1",
-    "url": "https://drive.google.com/file/d/1yCH7J9a2aEFMKcGf57Nkhqskbnv5H2tS/view?usp=drive_link"
-  },
-  {
-    "name": "画像2",
-    "url": "https://drive.google.com/file/d/1_FGl4XhC_qfB7XrPw8YoLjG2SVtm3JH3/view?usp=drive_link"
-  },
-  {
-    "name": "画像3",
-    "url": "https://drive.google.com/file/d/1ZHgXF14kNeovc9qNTqmOvoV8h048nVH3/view?usp=sharing"
-  },
-  {
-    "name": "画像4",
-    "url": "https://drive.google.com/file/d/1dmpAWU6OP0FjZfn91ikMnvY0U3nlVA_5/view?usp=drive_link"
-  },
-  {
-    "name": "画像5",
-    "url": "https://drive.google.com/file/d/1YbOshJjGwGXiRbgmv0oIDkJxOhhkVd-V/view?usp=drive_link"
-  },
-  {
-    "name": "画像6",
-    "url": "https://drive.google.com/file/d/1aeCG5VKaOcyPLmoq6A0Fm_rPAmL60xSe/view?usp=drive_link"
-  },
-  {
-    "name": "画像7",
-    "url": "https://drive.google.com/file/d/1c9dzHrO2qy33aHuMqD2o19f83ck-aZ56/view?usp=drive_link"
-  },
-  {
-    "name": "画像8",
-    "url": "https://drive.google.com/file/d/1rFENuFFyZfxVb5STqXwp5xLbq3YPBwLm/view?usp=drive_link"
-  },
-  {
-    "name": "画像9",
-    "url": "https://drive.google.com/file/d/1rFENuFFyZfxVb5STqXwp5xLbq3YPBwLm/view?usp=drive_link"
-  },
-  {
-    "name": "画像10",
-    "url": "https://drive.google.com/file/d/1A9ujjQRO9QxhmD_GG9nsOZplH_URLISB/view?usp=drive_link"
+    "name": "タイムスタンプ",
+    "url": "画像名"
   }
 ]
