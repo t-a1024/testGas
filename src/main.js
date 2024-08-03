@@ -21,13 +21,13 @@ function addBookmark(data) {
 }
 
 function removeBookmark(data) {
-    bookmarks = bookmarks.filter(bookmark => bookmark.url !== data.url);
+    bookmarks = bookmarks.filter(bookmark => bookmark.GoogleDriveUrl !== data.GoogleDriveUrl);
     saveBookmarks();
     displayBookmarks();
 }
 
 function isBookmarked(data) {
-    return bookmarks.some(bookmark => bookmark.url === data.url);
+    return bookmarks.some(bookmark => bookmark.GoogleDriveUrl === data.GoogleDriveUrl);
 }
 
 function createBookmarkButton(data) {
@@ -50,7 +50,7 @@ function setImg() {
         const label = document.createElement("h1");
         const img = document.createElement("img");
         const button = createBookmarkButton(data);
-        label.innerText = data.name;
+        label.innerText = data.imageName;
         img.src = "assets/" + data.filePass;
         div.appendChild(label);
         div.appendChild(img);
@@ -64,8 +64,8 @@ function displayBookmarks() {
     bookmarks.forEach(bookmark => {
         const label = document.createElement("h1");
         const img = document.createElement("img");
-        label.innerText = bookmark.name;
-        img.src = bookmark.assets;
+        label.innerText = bookmark.imageName;
+        img.src = "assets/" + bookmark.filePass;
         bookmarksDiv.appendChild(label);
         bookmarksDiv.appendChild(img);
     });
