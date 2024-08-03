@@ -51,7 +51,7 @@ function setImg() {
         const img = document.createElement("img");
         const button = createBookmarkButton(data);
         label.innerText = data.name;
-        img.src = data.assets;
+        img.src = "assets/" + data.filePass;
         div.appendChild(label);
         div.appendChild(img);
         div.appendChild(button);
